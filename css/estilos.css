@@ -64,9 +64,90 @@ body {
 }
 
 #footer {
+    background: #33a;
     color: white;
-    background: #FF00FF;
     /*color:#096980;*/
     align-items: center;
+    display: flex;
     justify-content: space-between;
+}
+
+.footer img {
+    vertical-align: middle;
+}
+
+.contact {
+    background: #33a;
+    /*background-color:#096980; */
+    color: white;
+    height: 100px;
+    /*display: flex;*/
+    align-items: center;
+    /* justify-content: space-between;*/
+}
+
+.footer a {
+    color: white;
+}
+
+.contact-h3 {
+    color: white;
+}
+
+.form-email input {
+    border-color: gray;
+    border-style: solid;
+    border-radius: 5px;
+    /*padding: 10px 20px 10px 25px;*/
+    /* background-image: url('../imagen/mail.png');*/
+    /*background-size: 20px 20px;*/
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+.form-email button {
+    /*display: block;*/
+    /*margin-top: 10px;*/
+    background: transparent;
+    color: white;
+    padding: 5px 0px;
+    border-radius: 5px;
+    width: 100px;
+    /*margin: 10px auto 0;*/
+    background-position-y: center;
+    background-position-x: center;
+}
+
+.project-url-a {
+    font-size: 15px;
+    color: white;
+}
+
+.social-link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-size: 50px 50px;
+}
+
+.social-link.twiter {
+    background-image: url('../img/audio-de-windows-media.svg');
+    background-size: 50px 50px;
+}
+
+.social-link.facebook {
+    background-image: url('../img/audio-de-windows-media\ \(1\).svg');
+    background-size: 50px 50px;
+}
+
+.social-link.github {
+    background-image: url('../img/github.svg');
+    background-size: 50px 50px;
+}
+
+.social-link.instagram {
+    background-image: url('../img/instagram.svg');
+    background-size: 50px 50px;
 }
